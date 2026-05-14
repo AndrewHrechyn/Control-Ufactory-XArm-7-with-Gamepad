@@ -8,4 +8,3 @@ def save_config(config, path):
     with open(path, "w") as f:
         pyyaml.dump(config, f)
     print(f"Config saved to {path}")
-
